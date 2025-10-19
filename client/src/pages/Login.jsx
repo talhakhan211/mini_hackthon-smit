@@ -48,7 +48,7 @@ export default function Login() {
            <div className="text-center mb-8 animate-fade-in">
       
           <h1 className="text-4xl font-bold text-white mb-2">Welcome Back</h1>
-          <p className="text-blue-200 text-sm">Sign in to access your account</p>
+          
         </div>
             {/* Email Field */}
             <div className="space-y-2">
@@ -160,7 +160,7 @@ export default function Login() {
         </div>
 
         {/* Sign Up Link */}
-        <div className="text-center">
+        <div className="text-center mt-[-10px]">
           <p className="text-blue-100 text-sm">
             Don't have an account?{" "}
             <Link to="/register" className="font-semibold text-blue-300 hover:text-blue-200 transition-colors relative group">
